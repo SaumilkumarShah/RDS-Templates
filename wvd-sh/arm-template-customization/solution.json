@@ -30,7 +30,7 @@
       },
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "apiVersion": "2021-03-01",
-      "name": "[format('{0}-{1}/CustomScriptExtension', parameters('NamePrefix'), range(parameters('VirtualMachineIndex'), parameters('NumberOfVms'))[copyIndex()])]",
+      "name": "nsapp2-3/CustomScriptExtension",
       "location": "[parameters('Location')]",
       "properties": {
         "publisher": "Microsoft.Compute",
