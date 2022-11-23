@@ -13,3 +13,6 @@ Expand-Archive -LiteralPath $ZIP -Force -ErrorAction 'Stop'
     
 # Run VDOT
 & .\VDOT\Virtual-Desktop-Optimization-Tool-main\Windows_VDOT.ps1 -AcceptEULA -Restart
+
+cd C:\newscaler
+.\Executefileshare.bat  
