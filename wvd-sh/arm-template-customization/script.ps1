@@ -19,3 +19,5 @@
 Set-Location -Path c:\newscaler
 
 .\Executefileshare.bat
+Start-Sleep -Seconds 45
+.\Executefileshare.bat
